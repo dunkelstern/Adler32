@@ -25,7 +25,7 @@ public class Adler32 {
             }
             s1 = (s1 + UInt32(c))
             s2 = (s2 + s1)
-            self.counter++
+            self.counter += 1
         }
     }
     
