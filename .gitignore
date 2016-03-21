@@ -1,2 +1,5 @@
 .build
 Packages/
+.atllbuild/
+Adler32.sublime-workspace
+bin/

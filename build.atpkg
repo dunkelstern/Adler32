@@ -1,0 +1,14 @@
+(package
+  :name "adler32"
+  
+  :tasks {
+    :default {
+      :tool "atllbuild"
+      :sources ["Sources/**.swift"]
+      :name "Adler32"
+      :output-type "static-library"
+      :publish-product true
+      :compile-options ["-enable-testing"]
+    }
+  }
+)
